@@ -1,12 +1,12 @@
 
 import './App.css'
-import BookList from './freature/booklist/BookList'
+import PostView from './freature/fetchData/PostView'
 
 function App() {
 
   return (
     <>
-<BookList/>
+<PostView/>
     </>
   )
 }
