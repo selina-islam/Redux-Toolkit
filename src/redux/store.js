@@ -4,6 +4,7 @@ import todoReducer from './feature/Todo/todoSlice'
 import bookReducer from "../freature/booklist/bookSlice";
 import counterReduce from '../freature/counter/CounterSlice'
 import postReducer from './../freature/fetchData/postSlice';
+import productReducer  from "../freature/e-commerce/productSlice";
 const store = configureStore({
     reducer: {
         counter: counterReducer,
@@ -11,6 +12,7 @@ const store = configureStore({
          counterSlice: counterReduce,
         book: bookReducer,
        posts: postReducer,
+       product: productReducer
     }
 })
 export default store

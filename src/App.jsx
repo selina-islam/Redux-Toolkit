@@ -1,12 +1,12 @@
 
 import './App.css'
-import PostView from './freature/fetchData/PostView'
+import ProductList from './freature/e-commerce/ProductList'
 
 function App() {
 
   return (
     <>
-<PostView/>
+<ProductList/>
     </>
   )
 }

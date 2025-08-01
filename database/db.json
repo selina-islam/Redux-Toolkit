@@ -1,0 +1,95 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Wireless Headphones",
+      "descr": "Experience crystal-clear audio with our wireless headphones featuring advanced noise cancellation, up to 30 hours of battery life, and comfortable ear cushions for all-day listening.",
+      "category": "Electronics",
+      "price": 79.99
+    },
+    {
+      "id": "2",
+      "title": "Headphones",
+      "descr": "Experience crystal-clear audio with our wireless headphones featuring advanced noise cancellation, up to 30 hours of battery life, and comfortable ear cushions for all-day listening.",
+      "category": "Electronic",
+      "price": 54.99
+    },
+    {
+      "id": "3",
+      "title": "Gaming Mouse",
+      "descr": "Designed for gamers, this mouse features ultra-responsive buttons, customizable DPI up to 16,000, RGB lighting, and an ergonomic grip that reduces fatigue during long gaming sessions.",
+      "category": "Electronics",
+      "price": 39.99
+    },
+    {
+      "id": "4",
+      "title": "Office Chair",
+      "descr": "Our ergonomic office chair offers premium lumbar support, a breathable mesh back, padded armrests, and smooth-rolling casters for maximum comfort and mobility during work hours.",
+      "category": "Furniture",
+      "price": 149.99
+    },
+    {
+      "id": "5",
+      "title": "Running Shoes",
+      "descr": "These lightweight running shoes are engineered with shock-absorbing soles, a breathable upper mesh, and enhanced heel support to provide superior comfort and performance on every run.",
+      "category": "Footwear",
+      "price": 69.99
+    },
+    {
+      "id": "6",
+      "title": "Water Bottle",
+      "descr": "Made of durable stainless steel, this insulated water bottle keeps drinks cold for up to 24 hours and hot for up to 12, with a leak-proof cap and sweat-free finish.",
+      "category": "Home & Kitchen",
+      "price": 24.99
+    },
+    {
+      "id": "7",
+      "title": "Bluetooth Speaker",
+      "descr": "Enjoy powerful sound anywhere with our portable Bluetooth speaker, featuring IPX7 waterproofing, 12-hour playtime, and deep bass for a truly immersive audio experience.",
+      "category": "Electronics",
+      "price": 49.99
+    },
+    {
+      "id": "8",
+      "title": "Yoga Mat",
+      "descr": "This non-slip yoga mat is made with eco-friendly materials, offering 6mm of cushion and grip for stability during yoga, Pilates, and fitness exercises at home or the gym.",
+      "category": "Fitness",
+      "price": 29.99
+    },
+    {
+      "id": "9",
+      "title": "LED Desk Lamp",
+      "descr": "A modern LED desk lamp with 3 brightness levels, USB charging port, touch control, and an adjustable neck—perfect for studying, reading, or working late into the night.",
+      "category": "Home & Office",
+      "price": 34.99
+    },
+    {
+      "id": "10",
+      "title": "Wireless Charger",
+      "descr": "Charge your phone effortlessly with this fast wireless charger pad. It's compatible with all Qi-enabled devices and comes with overheat and overcharge protection for safety.",
+      "category": "Electronics",
+      "price": 27.99
+    },
+    {
+      "id": "11",
+      "title": "Notebook Set",
+      "descr": "This pack of 3 premium softcover notebooks features 120 dotted pages each, perfect for journaling, bullet planning, sketching, and organizing your thoughts or to-do lists.",
+      "category": "Stationery",
+      "price": 12.49
+    },
+    {
+      "id": "12",
+      "title": "Sunglasses",
+      "descr": "Stylish and functional, these polarized sunglasses offer 100% UV protection, lightweight frames, and anti-glare lenses—ideal for driving, outdoor activities, and beachwear.",
+      "category": "Fashion",
+      "price": 22.99
+    },
+    {
+      "id": "yKs0Z1aoaMKhobG1sFBKQ",
+      "title": "",
+      "price": "",
+      "category": "",
+      "descr": ""
+    }
+  ]
+}
