@@ -1,12 +1,12 @@
 
 import './App.css'
-import ProductList from './freature/e-commerce/ProductList'
+import ProductsViews from './rtk-query/ProductsViews'
 
 function App() {
 
   return (
     <>
-<ProductList/>
+    <ProductsViews/>
     </>
   )
 }

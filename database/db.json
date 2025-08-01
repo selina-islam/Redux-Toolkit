@@ -79,17 +79,24 @@
     },
     {
       "id": "12",
-      "title": "Sunglasses",
-      "descr": "Stylish and functional, these polarized sunglasses offer 100% UV protection, lightweight frames, and anti-glare lenses—ideal for driving, outdoor activities, and beachwear.",
-      "category": "Fashion",
-      "price": 22.99
+      "title": "Notebook Set",
+      "descr": "This pack of 3 premium softcover notebooks features 120 dotted pages each, perfect for journaling, bullet planning, sketching, and organizing your thoughts or to-do lists.",
+      "category": "Stationery",
+      "price": 12.49
     },
     {
-      "id": "yKs0Z1aoaMKhobG1sFBKQ",
-      "title": "",
-      "price": "",
-      "category": "",
-      "descr": ""
+      "id": "13",
+      "title": "Notebook Set",
+      "descr": "This pack of 3 premium softcover notebooks features 120 dotted pages each, perfect for journaling, bullet planning, sketching, and organizing your thoughts or to-do lists.",
+      "category": "Stationery",
+      "price": 12.49
+    },
+    {
+      "id": "mtLw2IPMIhaClUe7foc4e",
+      "title": "Redux",
+      "price": "55555",
+      "category": "library",
+      "descr": "RTK query"
     }
   ]
 }
