@@ -2,9 +2,13 @@ import React, { useState } from 'react';
 import { useUpdateProductMutation } from './productApi';
 
 const UpdatedForm = ({ product, setEditingProduct }) => {
+  // initialize form data state with the passed product object
   const [formData, setFormData] = useState(product);
+  
+  // get the updateProduct function from the mutation hook
   const [updateProduct] = useUpdateProductMutation();
 
+  // handle input changes and update the formData state dynamically
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -12,24 +16,27 @@ const UpdatedForm = ({ product, setEditingProduct }) => {
     });
   };
 
-
+  // handle form submission to update the product
   const handleSubmit = async (e) => {
-    e.preventDefault();
+    e.preventDefault(); // prevent default form submission behavior
     try {
-       await updateProduct({ id: formData.id, ...formData });
-       setEditingProduct(null)
-
+      // call the updateProduct mutation with the updated data
+      await updateProduct({ id: formData.id, ...formData });
       
+      // close the editing form by setting editing product to null
+      setEditingProduct(null);
     } catch (error) {
-      console.error('Something went wrong:', error);
+      // log any error that occurs during the update
+      console.error('something went wrong:', error);
     }
   };
 
   return (
     <div>
+      {/* form for editing product details */}
       <form onSubmit={handleSubmit} className="space-y-2">
         <div>
-          <label>Title:</label>
+          <label>title:</label>
           <input
             type="text"
             value={formData.title}
@@ -40,7 +47,7 @@ const UpdatedForm = ({ product, setEditingProduct }) => {
           />
         </div>
         <div>
-          <label>Description:</label>
+          <label>description:</label>
           <input
             type="text"
             value={formData.descr}
@@ -51,7 +58,7 @@ const UpdatedForm = ({ product, setEditingProduct }) => {
           />
         </div>
         <div>
-          <label>Price:</label>
+          <label>price:</label>
           <input
             type="text"
             value={formData.price}
@@ -62,7 +69,7 @@ const UpdatedForm = ({ product, setEditingProduct }) => {
           />
         </div>
         <div>
-          <label>Category:</label>
+          <label>category:</label>
           <input
             type="text"
             value={formData.category}
@@ -72,16 +79,18 @@ const UpdatedForm = ({ product, setEditingProduct }) => {
             className="border px-2 focus:ring-1 focus:outline-none focus:ring-indigo-500"
           />
         </div>
+        {/* submit button to save changes */}
         <button type="submit" className="border px-6 rounded bg-indigo-500 text-white">
-          Save
+          save
         </button>
+        {/* cancel button to close form without saving */}
         <button
-  type="button"
-  onClick={() => setEditingProduct(null)}
-  className="border px-4 ml-2 bg-gray-300 text-black"
->
-  Cancel
-</button>
+          type="button"
+          onClick={() => setEditingProduct(null)}
+          className="border px-4 ml-2 bg-gray-300 text-black"
+        >
+          cancel
+        </button>
       </form>
     </div>
   );
